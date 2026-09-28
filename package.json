@@ -1,0 +1,29 @@
+{
+  "name": "@theworker02/weaveurl",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Weave validation gates for url inputs before they hit prod.",
+  "bin": {
+    "weaveurl": "src/cli.js"
+  },
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theworker02/weaveurl.git"
+  },
+  "homepage": "https://theworker02.github.io/weaveurl/",
+  "keywords": [
+    "weave",
+    "url",
+    "validate",
+    "cli",
+    "toolkit"
+  ]
+}
